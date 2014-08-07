@@ -1,7 +1,8 @@
 package ticker
 
-import "testing"
 import "fmt"
+import "time"
+import "github.com/r8k/ticker"
 
 func print(args []interface{}) {
 	fmt.Printf("Hello World !! Got %d args\n", len(args))

@@ -1,4 +1,5 @@
 # ticker
+[![GoDoc](https://godoc.org/github.com/r8k/ticker?status.svg)](https://godoc.org/github.com/r8k/ticker)
 
  Schedule the repeated execution of a function every `time.Duration`.
 
