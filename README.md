@@ -54,3 +54,7 @@ Hello World !! I got 2 args
 0 a
 1 2
 ```
+
+# License
+
+MIT
