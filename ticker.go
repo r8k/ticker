@@ -2,6 +2,17 @@ package ticker
 
 import "time"
 
+// Schedule the repeated execution
+// of a function every `time.Duration`
+//
+// Also, you can pass arguments to the function
+// being executed via `interface`.
+//
+// If no args are needed, pass an empty
+// `interface` via: `[]interface{}{}`
+//
+// Returns: `chan bool`, to stop the execution,
+// if needed, via: stop <- true
 func TickEvery(fn func(args []interface{}), d time.Duration, args []interface{}) chan bool {
 	// to handle states, we create a channel
 	// and use that to communicate about the
